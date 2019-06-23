@@ -4,6 +4,7 @@ function reload() {
 class Icons extends React.Component {
 	render() {
 		const {i1, i2, i3} = this.props;
+		const isWinner = (i1 === i2) && (i2 === i3);
 		return (
 			<section>
 				<section className="outer-box">
@@ -14,7 +15,7 @@ class Icons extends React.Component {
 					</section>
 				</section>
 				<button className="spin" type="button" onClick={reload}>Spin!</button>
-				{(i1 == i2 && i2 == i3) ? <h1 className="heading-one winner"> Winner!! </h1> : <h1 className="heading-one loser"> Try again </h1> }
+				{(isWinner) ? <h1 className="heading-one winner"> Winner!! </h1> : <h1 className="heading-one loser"> Try again </h1> }
 			</section>
 		)
 	}
