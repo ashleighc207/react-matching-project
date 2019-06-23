@@ -12,7 +12,7 @@ class App extends React.Component {
 			<main className="main-content">
 				<h1 className="heading-one"> Are you feeling lucky?</h1>
 				<Icons i1={icon1} i2={icon2} i3={icon3}/>
-				{(icon1 == icon2 && icon2 == icon3) ? <h1> Winner!! </h1> : <h1> Try again </h1> }
+				{(icon1 == icon2 && icon2 == icon3) ? <h1 className="heading-one winner"> Winner!! </h1> : <h1 className="heading-one loser"> Try again </h1> }
 			</main>
 		)
 	}

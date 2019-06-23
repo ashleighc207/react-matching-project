@@ -67,3 +67,11 @@ body {
 	border: 2px solid rgba(33,33,33,0.5);
 	outline: none;
 }
+
+.winner {
+	color: rgba(63,94,251,1);
+}
+
+.loser {
+	color: rgba(215,70,252,1);
+}
