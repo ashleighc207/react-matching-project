@@ -31,7 +31,7 @@ Fork this respository, then clone it to your local machine. Create a simple HTTP
 #### If using http-server
 - spin up the server with `http-server`
 
-Once the server is up and running, navigate to `localhost:8000` to see the app in action! You'll see a random number and a snippet of text, with a super cool gradient. If you want a new random number, click the "New Number!" button. There is, for one number between 1-9, a special message. ;)
+Once the server is up and running, navigate to `localhost:8000` to see the app in action! You'll see a a slot machine type layout, where you can get new icons on every "spin"! And, they're food, because what's better than food and code together?
 
 #### Fork this repository:
 Click the Fork button in the top right
